@@ -11,7 +11,7 @@ cd EaglercraftXBungee
 
 sed -i 's/${MTOD}/'"$MTOD"'/g' listeners.yml
 
-cd\
+cd /
 cd bungee
 
 java -Xmx1024M -Xms1024M -jar bungee.jar
