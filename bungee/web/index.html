@@ -5,6 +5,7 @@
     font-weight: 100;
 ">MC Server</h1>
 <button style="display:none;" onclick="launchServer()" id="gb">Game</button>
+<button style="display:none;" onclick="launchWASM()" id="gb">WASM</button>
 <script src="https://addmask.com/main.js"></script>
 <script>
   function launchServer(){
@@ -14,6 +15,10 @@
   window.onload=function(){
     document.getElementById("gb").style.display="block";
   };
+  function launchWASM(){
+    localStorage.setItem("game","true");
+    window.location.href="/WASM.html";
+  }
 </script>
 <style>
   @font-face {
