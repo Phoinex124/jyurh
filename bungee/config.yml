@@ -46,5 +46,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: Phoinex0-39hb.aternos.me:19248
+    address: uyuuyg.sdlf.fun:25565
     restricted: false
