@@ -46,5 +46,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: uyuuyg.sdlf.fun:25565
+    address: la1.freeminecrafthost.com:28935
     restricted: false
